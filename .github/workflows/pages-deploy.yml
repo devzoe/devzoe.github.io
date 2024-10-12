@@ -54,8 +54,8 @@ jobs:
         run: |
           bundle exec htmlproofer _site \
           --disable-external \
-          --disable-images \
-          --allow-hash-href
+          --assume-extension \
+          --checks-to-ignore Images
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
