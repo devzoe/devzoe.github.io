@@ -6,5 +6,5 @@
   .bundle
 {%- endif -%}
 ';
-@import "node_modules/bootstrap/scss/bootstrap";
+@import 'dist/bootstrap';
 /* append your custom style below */
