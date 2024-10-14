@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko
+lang: ko-KR
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Asia/Seoul
@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Zoe # the main title
 
-tagline: iOS Developer & Data Analyst  # it will display as the subtitle
+tagline: Zoe의 개발 블로그   # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   zoe's tech blog
