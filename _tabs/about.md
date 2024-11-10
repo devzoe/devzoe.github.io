@@ -12,10 +12,14 @@ order: 4
   <img src="https://cdn.jsdelivr.net/gh/devzoe/devzoe.github.io/assets/img/common/about.jpg" width="300px" align="left" style="display:block; border-radius: 10px; padding: 0px;">
 </p>
  
-안녕하세요. 개발자 남경민입니다.\n
-주로 iOS 개발을 합니다.\n
-Data Science에도 관심이 있어 공부하고 있습니다. (개인화 추천 시스템에 관심이 많습니다.)\n 
-관련 인사이트를 블로그를 통해 공유하고자 합니다.\n
+안녕하세요. 개발자 남경민입니다.
+
+주로 iOS 개발을 합니다.
+
+Data Science에도 관심이 있어 공부하고 있습니다. (개인화 추천 시스템에 관심이 많습니다.)
+
+관련 인사이트를 블로그를 통해 공유하고자 합니다.
+
 잘 부탁드립니다.
 
 ## 학력
