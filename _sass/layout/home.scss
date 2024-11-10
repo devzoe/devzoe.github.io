@@ -3,7 +3,7 @@
 */
 
 #post-list {
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   .card-wrapper {
     &:hover {
@@ -37,13 +37,12 @@
 
       .card-title {
         @extend %text-clip;
-
-        color: var(--heading-color) !important;
+        color: #cccccc !important;
         font-size: 1.25rem;
       }
 
       %muted {
-        color: var(--text-muted-color) !important;
+        color: rgb(107, 116, 124) !important;
       }
 
       .card-text.content {
@@ -51,7 +50,6 @@
 
         p {
           @extend %text-clip;
-
           line-height: 1.5;
           margin: 0;
         }
@@ -68,7 +66,6 @@
 
         em {
           @extend %normal-font-style;
-
           color: inherit;
         }
 
@@ -84,7 +81,7 @@
 } /* #post-list */
 
 .pagination {
-  color: var(--text-color);
+  color: rgb(175, 176, 177);
   font-family: Lato, sans-serif;
   justify-content: space-evenly;
 
@@ -100,20 +97,21 @@
       -webkit-box-pack: center;
       -webkit-box-align: center;
       border-radius: 0.5rem;
-      border: 0;
-      background-color: inherit;
+      border: 1px solid rgb(63, 65, 68);
+      background-color: rgb(39, 40, 43);
     }
 
     &.active {
       .page-link {
-        background-color: var(--btn-paginator-hover-color);
+        background-color: rgb(64, 65, 66);
+        color: rgb(175, 176, 177);
       }
     }
 
     &:not(.active) {
       .page-link {
         &:hover {
-          box-shadow: inset var(--btn-border-color) 0 0 0 1px;
+          box-shadow: inset rgb(63, 65, 68) 0 0 0 1px;
         }
       }
     }
@@ -169,7 +167,7 @@
 /* Sidebar is visible */
 @media all and (min-width: 831px) {
   #post-list {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
   }
 
   .pagination {
@@ -187,3 +185,4 @@
     }
   } /* .pagination */
 }
+
