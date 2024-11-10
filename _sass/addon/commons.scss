@@ -6,22 +6,22 @@ html {
   @media (prefers-color-scheme: light) {
     &:not([data-mode]),
     &[data-mode='light'] {
-      @include light-scheme;
+      @include light-syntax;
     }
 
     &[data-mode='dark'] {
-      @include dark-scheme;
+      @include dark-syntax;
     }
   }
 
   @media (prefers-color-scheme: dark) {
     &:not([data-mode]),
     &[data-mode='dark'] {
-      @include dark-scheme;
+      @include dark-syntax;
     }
 
     &[data-mode='light'] {
-      @include light-scheme;
+      @include light-syntax;
     }
   }
 }
