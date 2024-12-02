@@ -4,17 +4,17 @@
 # ---------------------------------------------------------------
 
 # Site
-title: JusticeHui가 PS하는 블로그
+title: zoe's tech blog
 subtitle:
 description:
-author: JusticeHui
+author: devzoe
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ko
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: 'https://justiceHui.github.io'
+url: 'https://devzoe.github.io'
 baseurl: '/'
 permalink: pretty
 timezone:
@@ -77,7 +77,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/images/favicons/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
@@ -85,7 +85,7 @@ keywords: "Jekyll, NexT"
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
 # Set rss to specific value if you have burned your feed already.
-rss: /rss/
+rss: #/rss/
 
 # Specify the date when the site was setup
 #since: 2015
@@ -119,12 +119,11 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/-> archives)
 menu:
   home: /
-  about: /about/
+  #about: /about/
   archives: /archives/
   #categories: /categories/
   tags: /tags/
   categories: /navigator/
-  teach: /teach/
   #sitemap: /menual/
   #commonweal: /404.html
 
@@ -138,14 +137,13 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
-  about: user
+  #about: user
   categories: th
   schedule: calendar
   tags: tags
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-  teach: users
 
 # ---------------------------------------------------------------
 # Scheme Settings
@@ -234,7 +232,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-avatar: https://avatars3.githubusercontent.com/u/20872857?s=460&u=5f07ac108384e9a63e14269828aaa7a27fa84647&v=4
+avatar: /assets/images/avatar/zoe_profile_2024.png
 
 
 # Table Of Contents in the Sidebar
@@ -382,7 +380,7 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname: justiceHui
+  shortname: devzoe
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
