@@ -1,6 +1,6 @@
 ---
 title: "Observable Object protocol에서 Observable macro로 마이그레이션하는 것이 꼭 필요할까?"
-date: 2025-01-21 00:00:00
+date: 2025-01-21 00:00:00 +0900
 categories:
 - iOS
 tags:
@@ -10,9 +10,9 @@ tags:
 - Observable
 ---
 
-최근 모 연합 동아리 면접을 보면서 이런 질문을 받았습니다.
-
 “Combine을 주로 사용하시는데 Observable Object와 Observable macro의 차이점이 무엇인가요?”
+
+최근 모 연합 동아리 면접을 보면서 이런 질문을 받았습니다.
 
 잠시 머릿속이 백지 상태가 되고… 
 
